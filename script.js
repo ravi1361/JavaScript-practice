@@ -1,15 +1,7 @@
-//Types in js
+//function
 
-//reference -- [], (), {}
+function helobolo(){
+  console.log("hello");
+}
 
-var a = [12,13];
-var b = a;
-
-b.pop();
-
-
-
-
-
-
-
+helobolo();
