@@ -1,15 +1,11 @@
-// hoisting
+//Types in js
 
+//primitive -- number, string, null, undefined , boolean 
 
-// undefined
+var a = 12 ;
+var b = a ;
 
-// declaration
-var b ;
-
-console.log(b);
-
-//initialization
-b = 12;
+b = b+2 ;
 
 
 
