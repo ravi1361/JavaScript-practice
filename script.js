@@ -1,11 +1,11 @@
 //Types in js
 
-//primitive -- number, string, null, undefined , boolean 
+//reference -- [], (), {}
 
-var a = 12 ;
-var b = a ;
+var a = [12,13];
+var b = a;
 
-b = b+2 ;
+b.pop();
 
 
 
