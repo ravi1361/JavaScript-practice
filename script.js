@@ -1,13 +1,16 @@
 // hoisting
 
 
-//undefined 
-console.log(a);
-var a = 12 ;
+// undefined
 
+// declaration
+var b ;
 
-// no defined
 console.log(b);
+
+//initialization
+b = 12;
+
 
 
 
