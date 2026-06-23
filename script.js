@@ -7,6 +7,8 @@ var b = a;
 
 b.pop();
 
+console.log("hello");
+
 
 
 
