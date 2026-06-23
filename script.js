@@ -1,9 +1,3 @@
-//functions
+// arrays -- array is a group of values
 
-
-//param, arguments
-function abcd(a,b,c){
-  console.log(a,b,c);
-}
-
-abcd(12,13,14);
+var a = [12,13,14];
