@@ -1,6 +1,6 @@
 //function
 
-function helobolo(){
+function helobolo() {
   console.log("hello");
 }
 
