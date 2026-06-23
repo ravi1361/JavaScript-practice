@@ -1,3 +1,7 @@
-// arrays -- array is a group of values
+// arrays 
 
-var a = [12,13,14];
+var arr = [1,2,3,4,5,6,7];
+
+
+//adds at last index
+arr.push(8);
