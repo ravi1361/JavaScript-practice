@@ -1,7 +1,7 @@
 //function
 
 function helobolo() {
-  console.log("hello");
+  console.log("hello hiiii");
 }
 
 helobolo();
