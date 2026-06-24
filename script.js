@@ -3,5 +3,5 @@
 var arr = [1,2,3,4,5,6,7];
 
 
-//removes last index element
-arr.pop();
+//shuru me add karega
+arr.unshift(0);
