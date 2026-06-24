@@ -3,5 +3,5 @@
 var arr = [1,2,3,4,5,6,7];
 
 
-//shuru me add karega
-arr.unshift(0);
+// shuru ka value hatayega
+arr.shift();
