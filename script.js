@@ -1,10 +1,11 @@
-// updating obj prop
+// var is function scoped 
+// function scoped 
 
-var ghadi = {
-  brand: "kenneth cole",
-  price: "16k"
+function abcd(){
+  for(var i=0; i<12; i++){
+    console.log(i);
+    
+  }
 }
 
-
-//updating obj property
-ghadi.brand = "Titan kenneth cole"
+abcd();
