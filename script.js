@@ -1,11 +1,10 @@
-// objects
+// updating obj prop
 
-//filled object
-var a = {
-  age : 24,
-  name: "harsh",
-  email: "email@male.com",
-  linkedin: "harsh",
-  contact: 98758712598,
-  kuchbolo: function(){}
+var ghadi = {
+  brand: "kenneth cole",
+  price: "16k"
 }
+
+
+//updating obj property
+ghadi.brand = "Titan kenneth cole"
