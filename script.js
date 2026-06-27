@@ -1,11 +1,11 @@
-//let ,const is braces scoped 
 
-function abcd(){
-  for(let i=0; i<12; i++){
-    console.log(i);
-  }
-  console.log(i);
-  
-}
+// var adds itself to the window object
 
-abcd();
+// it will show like this 
+// a:12
+// alert
+// atob
+// b:12
+// blur
+var a = 12;
+var b = 12;
