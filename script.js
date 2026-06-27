@@ -1,11 +1,5 @@
+// let, const doesn't adds in the window object
 
-// var adds itself to the window object
 
-// it will show like this 
-// a:12
-// alert
-// atob
-// b:12
-// blur
-var a = 12;
-var b = 12;
+// it will not be added in the window object
+let b = 12 ;
