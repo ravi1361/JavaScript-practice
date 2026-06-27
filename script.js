@@ -1,5 +1,11 @@
-// let, const doesn't adds in the window object
+// how to copy reference values
+
+var a = [1,2,3,4,5];
+var b = [...a];   // spread operator
+
+b.pop();
 
 
-// it will not be added in the window object
-let b = 12 ;
+
+// b will have [1,2,3,4] 
+// a will have [1,2,3,4,5] , because b copied the values 
