@@ -1,5 +1,8 @@
-// first call functions
+  
 
-//js functions are first class functions 
-// we can use functions as a value , we can treat functions as a value
-var a = function(){};
+ function abcd(a){
+  a();
+ }
+
+ // abcd functions ko call kiya, aur inke andar as a arguments functions ko bhej diya 
+ abcd(function(){console.log("hello");})
