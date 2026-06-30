@@ -1,5 +1,5 @@
-// callback functions
+// first call functions
 
-setTimeout(function(){
-  console.log("2 seconds baad chalna");
-},2000);
+//js functions are first class functions 
+// we can use functions as a value , we can treat functions as a value
+var a = function(){};
