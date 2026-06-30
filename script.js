@@ -1,11 +1,9 @@
-// for in 
+// do-while loop
 
-var obj = {
-  name: "hasrh",
-  age: 24 ,
-  city: "bhopal"
-}
-
-for(var key in obj){
-   console.log(key, obj[key]);
-}
+ // do-while loop runs atleast one time , either value is true or false
+ var a = 12 ;
+ do{
+  console.log("hey");
+  a++ ;
+ }
+ while(a<15);
