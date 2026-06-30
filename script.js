@@ -1,9 +1,5 @@
-// do-while loop
+// callback functions
 
- // do-while loop runs atleast one time , either value is true or false
- var a = 12 ;
- do{
-  console.log("hey");
-  a++ ;
- }
- while(a<15);
+setTimeout(function(){
+  console.log("2 seconds baad chalna");
+},2000);
