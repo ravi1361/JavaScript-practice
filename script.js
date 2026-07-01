@@ -1,11 +1,18 @@
-// how to delete object properties
+// constructor function
 
-var a = {
-  name: "harsh",
-  age: 24
+// normal function jisme "this" ka istemaal ho and aap function ko call karte waqt "new" keyword ka use karre
+
+// jabke aaple paas aisa koi bhi mauka ho ke aapko ek jaise properties waale bahutt saare elements banane hai us waqt aap constructor function use kar sakte ho
+
+
+function saanchaOfBiscuit(){
+  this.width = 12 ;
+  this.height = 22 ;
+  this.color =  "brown" ;
+  this.taste = "sugary";
 }
 
-delete a.age ; // age property will be deleted from above object
-delete a.name ; // name property will be deleted from above object
 
-// output will be an empty object ---> {}
+var bis1 = new saanchaOfBiscuit();
+var bis2 = new saanchaOfBiscuit();
+var bis3 = new saanchaOfBiscuit();
