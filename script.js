@@ -1,8 +1,6 @@
-  
+// we can make negative indexes arrays in js
+ var arr = [1,2,3,4];
+ arr[-1] = 2 ;
 
- function abcd(a){
-  a();
- }
 
- // abcd functions ko call kiya, aur inke andar as a arguments functions ko bhej diya 
- abcd(function(){console.log("hello");})
+ // output will be ---> [1,2,3,4,-1:2]
