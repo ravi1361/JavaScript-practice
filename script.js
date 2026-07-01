@@ -5,14 +5,13 @@
 // jabke aaple paas aisa koi bhi mauka ho ke aapko ek jaise properties waale bahutt saare elements banane hai us waqt aap constructor function use kar sakte ho
 
 
-function saanchaOfBiscuit(){
-  this.width = 12 ;
-  this.height = 22 ;
-  this.color =  "brown" ;
-  this.taste = "sugary";
+function circularButtonBanao(color){
+  this.radius = 2 ;
+  this.color = color ;
+  this.icon =  false;
+  this.pressable = true;
 }
 
 
-var bis1 = new saanchaOfBiscuit();
-var bis2 = new saanchaOfBiscuit();
-var bis3 = new saanchaOfBiscuit();
+var redbtn = new circularButtonBanao("red");
+var greenbtn = new circularButtonBanao("green");
