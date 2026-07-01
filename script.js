@@ -1,6 +1,8 @@
-// we can make negative indexes arrays in js
- var arr = [1,2,3,4];
- arr[-1] = 2 ;
+// how to delete object properties
 
+var a = {
+  name: "harsh",
+  age: 24
+}
 
- // output will be ---> [1,2,3,4,-1:2]
+delete a.age ; // age property will be deleted from above array
