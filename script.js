@@ -1,24 +1,20 @@
-// iife -- immediately invoked function expression 
+// prototype inheritance
+
+var human = {
+  canFly: false,
+  canTalk: true,
+  canWalk: true,
+  haveEmotions: true,
+  haveFourLegs: false,
+}
 
 
- //iife
+var sheriyansStudent = {
+  canMakeAmazingWebsite: true,
+  canMakeAmazingAnimations: true,
+  canMakeWorldClassAwardedWebsites: true,
+}
 
-var ans = (function(){
-  var privateval = 12 ;
-  return {
-    getter: function(){
-      console.log(privateval);
-    },
-    setter: function(){   // setter value maangta hai
-      privateval = val ;   // jo bhi value bhejoge wo set ho jayega
-    }
-  }
-}) ()
+sheriyansStudent.__proto__ = human ; 
 
-
-// output will be like this
-// > ans.setter(24)
-// <. undefined
-
-// ans.getter()
-// 24
+// we can borrow the object properties from above by prototype inheritance
