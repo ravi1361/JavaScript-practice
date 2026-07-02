@@ -1,20 +1,30 @@
-// prototype inheritance
+// "this" keyword
 
-var human = {
-  canFly: false,
-  canTalk: true,
-  canWalk: true,
-  haveEmotions: true,
-  haveFourLegs: false,
+// "this" values in:
+// 1) global ---- window
+// 2) function -- window
+// 3) method ---- object
+
+// 1) global scope
+// console.log(this) // gives window in console
+
+
+// 2) function scope
+//  function abcd(){
+//    console.log(this);
+// }
+// abcd();              // gives window in console
+
+// 3) method scope
+var obj = {
+  name: "harsh",
+  baatKaro: function(){     // its a method
+    console.log(this);
+    
+  }
 }
 
+obj.baatKaro();
 
-var sheriyansStudent = {
-  canMakeAmazingWebsite: true,
-  canMakeAmazingAnimations: true,
-  canMakeWorldClassAwardedWebsites: true,
-}
 
-sheriyansStudent.__proto__ = human ; 
-
-// we can borrow the object properties from above by prototype inheritance
+//in any method , "this" keyword always refers to parent object
