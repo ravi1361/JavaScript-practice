@@ -1,5 +1,5 @@
 // pure function 
-// same input ,different output
+// same input ,same output
 
 function abcd(a,b){
   return a*b ;
