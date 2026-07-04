@@ -1,12 +1,9 @@
-// bind
+// pure function 
+// same input ,different output
 
-function abcd(){
-   console.log(this);
-   
+function abcd(a,b){
+  return a*b ;
 }
 
-var obj = {age:24};
-
-var bindedfnc = abcd.bind(obj);
-
-bindedfnc();
+var ans1 = abcd(1,2);
+var ans2 = abcd(1,2);
