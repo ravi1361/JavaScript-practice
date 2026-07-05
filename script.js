@@ -1,9 +1,9 @@
-// pure function 
-// same input ,same output
+// impure function
+// same input ,different output
 
-function abcd(a,b){
-  return a*b ;
+function abcd(val){
+  return Math.random()*val ;
 }
 
-var ans1 = abcd(1,2);
-var ans2 = abcd(1,2);
+var ans1 = abcd(2);
+var ans2 = abcd(2);
