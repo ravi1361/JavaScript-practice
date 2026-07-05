@@ -1,5 +1,7 @@
-// sync code 
+// async code 
 
 console.log("hey");
-setTimeout(function(){},2000)
+setTimeout(function(){
 console.log("hey2");
+},2000)
+
