@@ -1,9 +1,5 @@
-// impure function
-// same input ,different output
+// sync code 
 
-function abcd(val){
-  return Math.random()*val ;
-}
-
-var ans1 = abcd(2);
-var ans2 = abcd(2);
+console.log("hey");
+setTimeout(function(){},2000)
+console.log("hey2");
