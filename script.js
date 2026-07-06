@@ -4,7 +4,7 @@
 // ye sirf tab chalta hai jab async code ka completion hojaata hai
 
 var ans = new Promise((res,rej) => {
- if(true){
+ if(false){
   return res();
  }else{
   return rej();
