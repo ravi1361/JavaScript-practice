@@ -1,4 +1,4 @@
-// fat arrow function with one parameter
-
-var b = param => {};
-b(12);
+// fat arrow function with implicit return 
+// arrow ke baad jo bhi likhoge wo return hoga 
+var g = () => 12;
+console.log(g());
