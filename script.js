@@ -1,14 +1,22 @@
-// sync async
+// callbacks
 
-// sync code main stack mein aata hai
-// async code side stack mein aata hai
-// after abolishing all these event loop, side stack se cheejo ko main stack me laata hai
+// callback hamesha ek function hota hai , 
+// ye sirf tab chalta hai jab async code ka completion hojaata hai
 
-console.log("hey");
-console.log("hey2");
-setTimeout(function(){
-  console.log("hey3");
-},0)
-console.log("hey4");
+var ans = new Promise((res,rej) => {
+ if(true){
+  return res();
+ }else{
+  return rej();
+ }
+})
 
 
+ans
+.then(function(){
+  console.log("resolve hogaya tha");
+})
+.catch(function(){
+  console.log("reject hua tha");
+  
+})
