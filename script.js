@@ -1,3 +1,4 @@
-// 1) basic fat arrow function
+// fat arrow function with one parameter
 
-var a = () => {};
+var b = param => {};
+b(12);
