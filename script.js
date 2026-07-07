@@ -1,12 +1,18 @@
-// template literals -- backtick ``
+// default parameters
+// parameters ko value de dena hota hai default parameter
 
-console.log("hey" +2+2+ "is 4 and" +2-2+ "is 0"); // gives NaN is 0 
+function abcd(prm){
+  console.log(prm);
+}
+
+abcd(12);
+abcd(1224);
+abcd();
 
 
-console.log("hey" +2+2+ "is 4 and" +2); //ouput- hey22is 4 and2
+//output
+// 12
+// 1224
+// undefined 
 
-console.log(`hey 2+2`); // hey 2+2
-
-console.log(`hey ${2+2}`); // hey 4
-
-
+// koi value nahi diya to undefined print hoga
