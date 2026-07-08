@@ -2,12 +2,12 @@
 
 // parameter ko value de dena
 
-function abcd(prm=0){
-  console.log(prm);
+function abcd(a,b,c){
+  console.log(a,b,c);
 }
 
-abcd(12);
-abcd(122);
-abcd();
+abcd(1,2,3);
+abcd(4,5,6);
+abcd(1);
 
-// koi value nahi bheja to , parameter ke andar value jo set ki hogi ,wo value le lega
+// koi value nahi bheja to , parameter ke andar value jo set ki hogi ,wo value le lega , agar koi value set nahi ki parameter ke andar toh , wo undefined batadega
