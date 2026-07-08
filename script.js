@@ -1,18 +1,13 @@
-// default parameters
-// parameters ko value de dena hota hai default parameter
+// default parameter
 
-function abcd(prm){
+// parameter ko value de dena
+
+function abcd(prm=0){
   console.log(prm);
 }
 
 abcd(12);
-abcd(1224);
+abcd(122);
 abcd();
 
-
-//output
-// 12
-// 1224
-// undefined 
-
-// koi value nahi diya to undefined print hoga
+// koi value nahi bheja to , parameter ke andar value jo set ki hogi ,wo value le lega
