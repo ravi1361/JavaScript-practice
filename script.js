@@ -1,4 +1,7 @@
-// spread operator
+// // rest operator
 
-var a = [1,2,3];
-var b = [...a];
+function abcd(a,b,c,...d){
+  console.log(a,b,c,d);
+}
+
+abcd(1,2,3,4,5,6,7);
