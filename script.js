@@ -2,7 +2,7 @@
 
 // parameter ko value de dena
 
-function abcd(a,b,c){
+function abcd(a=0,b=0,c=0){
   console.log(a,b,c);
 }
 
