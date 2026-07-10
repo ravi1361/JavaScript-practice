@@ -2,4 +2,4 @@
 
 var a = [1,2,3];
 
-var [b,c] = a ;
+var [b,c,d,e] = a ;
