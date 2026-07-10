@@ -1,7 +1,5 @@
-// // rest operator
+// destructuring an array
 
-function abcd(a,b,c,...d){
-  console.log(a,b,c,d);
-}
+var a = [1,2,3];
 
-abcd(1,2,3,4,5,6,7);
+var [b,c] = a ;
