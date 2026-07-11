@@ -1,4 +1,14 @@
-// destructuring object
+// try and  catch
+// error aye to error bata dena par aage ka code jarrur chalana
 
-var obj = {name: "harsh", age: 24}
-var {age} = obj ;
+console.log("hey");
+
+try{
+  console.log(hey);
+}
+catch(err){
+  console.log(err);
+}
+
+console.log("hellllo");
+
