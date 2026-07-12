@@ -1,14 +1,6 @@
-// try and  catch
-// error aye to error bata dena par aage ka code jarrur chalana
+// variables and declaration
 
-console.log("hey");
+ var a ; // declaration
+ var a = 12 ; // declare and initialization
 
-try{
-  console.log(hey);
-}
-catch(err){
-  console.log(err);
-}
-
-console.log("hellllo");
-
+ // initialization means pehli value dena
