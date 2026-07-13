@@ -1,10 +1,9 @@
-// TDZ -- Temporal Dead Zone
+ 
+ var x = 1;
+ {
+  var x = 2;
+ }
+ console.log(x);
 
-console.log(a);
-
-
-
-
-var a = 12;
-
-// it will show undefined
+ // var braces ki respect nahi karta , so yaha pe ye global ban gaya 
+ 
