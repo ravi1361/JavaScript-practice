@@ -1,16 +1,10 @@
+// TDZ -- Temporal Dead Zone
 
-const dulha = "lab" ;
-const dulhan = "laby";
-
-console.log(dulha+" weds "+dulhan);
-
-const dulha = "haramzada"
+console.log(a);
 
 
-console.log(dulha+" weds "+dulhan);
 
 
-// we cannot redeclare the constants 
+let a = 12;
 
-// const tabhi create karo jab value nahi badlegi
-
+// it will show error, cannot access 'a' before intialization 
