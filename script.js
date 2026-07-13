@@ -5,6 +5,6 @@ console.log(a);
 
 
 
-let a = 12;
+var a = 12;
 
-// it will show error, cannot access 'a' before intialization 
+// it will show undefined
