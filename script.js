@@ -1,9 +1,9 @@
- 
- var x = 1;
- {
-  var x = 2;
- }
- console.log(x);
+// let,cost -- block scope hota hai
 
- // var braces ki respect nahi karta , so yaha pe ye global ban gaya 
- 
+let a = 10 ;
+
+{
+  let a = 20 ;
+  console.log("Inside:",a);
+}
+console.log("outside",a);
