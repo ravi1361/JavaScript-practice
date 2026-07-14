@@ -1,9 +1,10 @@
 // let,cost -- block scope hota hai
+// var function scoped hota hai
 
-let a = 10 ;
-
-{
-  let a = 20 ;
-  console.log("Inside:",a);
+if(true){
+  var a = 1 ;
+  let b = 2 ;
 }
-console.log("outside",a);
+console.log(a);
+console.log(b); // cannot access the ,let , outside the block
+
