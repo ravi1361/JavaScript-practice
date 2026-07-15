@@ -1,10 +1,10 @@
-// let,cost -- block scope hota hai
-// var function scoped hota hai
 
-if(true){
-  var a = 1 ;
-  let b = 2 ;
+let obj = {
+  uid: 1,
+  name: "hasrh",
+  age: 12,
+  email: "test@test.com",
 }
-console.log(a);
-console.log(b); // cannot access the ,let , outside the block
 
+let ul = Symbol("uid");
+obj[ul] = "001" ;
