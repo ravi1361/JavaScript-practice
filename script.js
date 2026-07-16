@@ -1,8 +1,6 @@
-// symbol
-// unique immutable value 
+// ternary operator
 
-let u1 = Symbol("uid");
-let u2 = Symbol("uid");
+12>13 ? console.log("true") : console.log("false");
 
-
-//u1===u2 --false
+12<13 ? console.log("true") : console.log("false");
+;
