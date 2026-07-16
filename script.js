@@ -1,10 +1,8 @@
+// symbol
+// unique immutable value 
 
-let obj = {
-  uid: 1,
-  name: "hasrh",
-  age: 12,
-  email: "test@test.com",
-}
+let u1 = Symbol("uid");
+let u2 = Symbol("uid");
 
-let ul = Symbol("uid");
-obj[ul] = "001" ;
+
+//u1===u2 --false
