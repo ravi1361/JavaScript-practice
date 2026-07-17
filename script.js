@@ -1,10 +1,12 @@
-// logical operator
-
-let isAdmin = true;
-let isLoggedIn = false ;
-
-if(isAdmin||isLoggedIn){
-  console.log("Access granted");
-}else{
-  console.log("Access denied");
+// switch case
+switch(1){
+  case 1: 
+  console.log("heyhey");
+  
+  case 2: 
+  console.log("case2");
+  
+  case 3: 
+  break ;
+  default :
 }
