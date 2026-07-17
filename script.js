@@ -1,6 +1,10 @@
-// ternary operator
+// logical operator
 
-12>13 ? console.log("true") : console.log("false");
+let isAdmin = true;
+let isLoggedIn = false ;
 
-12<13 ? console.log("true") : console.log("false");
-;
+if(isAdmin||isLoggedIn){
+  console.log("Access granted");
+}else{
+  console.log("Access denied");
+}
