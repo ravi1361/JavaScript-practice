@@ -1,14 +1,10 @@
-// switch case
-switch(1){
-  case 1: 
-  console.log("heyhey");
-  break;
-  
-  case 2: 
-  console.log("case2");
-  break;
-  
-  case 3: 
-  break ;
-  default :
+// early return pttern 
+
+function getVal(val){
+  if(val<100) return 'A' ;
+  else if(val<75) return 'B';
+  else if(val<50) return 'C' ;
+  else return 'D' ;
 }
+
+console.log(getVal(12));
