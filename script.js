@@ -1,10 +1,12 @@
 // early return pttern 
 
-function getVal(val){
-  if(val<100) return 'A' ;
-  else if(val<75) return 'B';
-  else if(val<50) return 'C' ;
-  else return 'D' ;
+function rps(user,computer){
+  if(user===computer) return "draw" ;
+
+  if(user==="rock" && computer==="scissor");
+  if(user==="scissor" && computer==="paper");
+  if(user==="paper" && computer==="rock");
+  return "computer" ;
 }
 
-console.log(getVal(12));
+console.log(rps("scissor","rock"));
