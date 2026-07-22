@@ -1,12 +1,11 @@
-// early return pttern 
+// switch case
 
-function rps(user,computer){
-  if(user===computer) return "draw" ;
+// agar break nahi likha ho toh agla case chala jayega
 
-  if(user==="rock" && computer==="scissor");
-  if(user==="scissor" && computer==="paper");
-  if(user==="paper" && computer==="rock");
-  return "computer" ;
+let x = 2;
+switch(x){
+  case 2:
+    console.log("Two");
+  case 3 :
+    console.log("Three");
 }
-
-console.log(rps("scissor","rock"));
