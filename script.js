@@ -1,6 +1,7 @@
-// while loop
-let i = 1 ;
-while(i<32){
+// do while loop
+let i = 12 ;
+do{
   console.log(i);
-  i++ ;
+  i++ ;  
 }
+while(i<2);
