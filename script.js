@@ -1,5 +1,5 @@
 // do while loop
-let i = 12 ;
+let i = 20 ;
 do{
   console.log(i);
   i++ ;  
