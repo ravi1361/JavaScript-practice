@@ -1,7 +1,7 @@
-// do while loop
-let i = 20 ;
-do{
+// break 
+for(let i=1; i<201; i++){
   console.log(i);
-  i++ ;  
+  if(i===32){
+    break ;
+  }
 }
-while(i<2);
