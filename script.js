@@ -1,5 +1,5 @@
-// function expression -- variable me save karne ko function expression kahte hai 
+// fat arrow function
 
-let fnc = function(){
-
+let fnc = ()=> {
+  
 }
