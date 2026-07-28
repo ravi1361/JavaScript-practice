@@ -1,8 +1,8 @@
-
-function dance(){
-  console.log("ghoda naach raha hai");
+// prameters , arguments 
+function dance(v){
+  console.log(`${v} naach raha hai`);
 }
 
-dance();
-dance();
-dance();
+dance("bhalu");
+dance("hiran");
+dance("sherr");
