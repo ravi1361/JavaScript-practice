@@ -1,8 +1,8 @@
 // prameters , arguments 
-function dance(v){
-  console.log(`${v} naach raha hai`);
+function dance(a,b){
+  console.log(a+b);
 }
 
-dance("bhalu");
-dance("hiran");
-dance("sherr");
+dance(1,2);
+dance(5,6);
+dance(10,16);
