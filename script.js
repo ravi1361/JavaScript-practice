@@ -1,8 +1,5 @@
-// prameters , arguments 
-function dance(a,b){
-  console.log(a+b);
+// default parameter
+function add(v1=0, v2=0){
+  console.log(v1+v2);
 }
-
-dance(1,2);
-dance(5,6);
-dance(10,16);
+add();
