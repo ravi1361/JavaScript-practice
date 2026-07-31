@@ -1,7 +1,7 @@
-// rest parameter --
-// jab arguments kai saare ho to humein utne hi parameter banane padenge ,
-//  issey bachne ke liye ,hum rest ka use karte hai
-function abcd(...val){
-  console.log(val);
+// return value 
+
+function abcd(v){
+  return 12+v ;
 }
-abcd(1,2,3,4,5,6);
+let val = abcd(23);
+console.log(val);
