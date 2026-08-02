@@ -1,7 +1,10 @@
-// return value 
+// first class functions
 
-function abcd(v){
-  return 12+v ;
+function abcd(val){
+  val();
 }
-let val = abcd(23);
-console.log(val);
+
+
+abcd(function(){
+  console.log("hey");
+});
