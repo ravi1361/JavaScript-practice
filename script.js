@@ -1,10 +1,9 @@
-// first class functions
+// Higher order functions
 
-function abcd(val){
-  val();
+function abcd(){
+  return function(){
+    console.log("hey");
+  }
 }
 
-
-abcd(function(){
-  console.log("hey");
-});
+abcd()();
