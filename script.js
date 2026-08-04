@@ -1,9 +1,6 @@
-// Higher order functions
+//iife
+// -- immediately invoked function expression
 
-function abcd(){
-  return function(){
-    console.log("hey");
-  }
-}
-
-abcd()();
+(function (){
+  console.log("hey");
+})();
