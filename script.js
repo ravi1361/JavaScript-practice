@@ -1,6 +1,5 @@
-//  arr.push
-// -- push will push the elements in the end
-
+//arr.pop
+// pop -- pop will remove the last element in the array
 let arr = [1,2,3,4,5];
 
-arr.push(7000);
+arr.pop();
