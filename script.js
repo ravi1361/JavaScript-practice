@@ -1,7 +1,7 @@
-// shift
+// unshift
 
-// shift -- shift array ka starting value hatata hai
+// unshift shuruwat me value  add karta hai
 
 let arr = [1,2,3,4,5];
 
-arr.shift();
+arr.unshift(6000);
