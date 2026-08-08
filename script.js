@@ -1,7 +1,5 @@
-// unshift
-
-// unshift shuruwat me value  add karta hai
+//  splice
 
 let arr = [1,2,3,4,5];
 
-arr.unshift(6000);
+arr.splice(2,1);
