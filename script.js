@@ -1,8 +1,7 @@
-// forEach
+// map
 
 let arr = [11,62,3,4,25];
 
-arr.forEach(function(val){
-  console.log(val+5);
-  
+let newarr = arr.map(function(val){
+  return val ;
 })
