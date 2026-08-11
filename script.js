@@ -1,7 +1,8 @@
-// array sorting in descending order
+// forEach
 
 let arr = [11,62,3,4,25];
 
-let sr = arr.sort(function(a,b){
-  return b-a ;
+arr.forEach(function(val){
+  console.log(val+5);
+  
 })
