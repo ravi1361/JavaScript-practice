@@ -1,7 +1,7 @@
-// map
+// filter
 
-let arr = [11,62,3,4,25];
+let arr = [1,2,3,4,5,6,7,8];
 
-let newarr = arr.map(function(val){
-   if(val>10) return val ;
+let newarr = arr.filter(function(val){
+  if(val>4) return true ;
 })
