@@ -1,8 +1,11 @@
 // find
-// condition ko satisfy karni waali pehli value degi
 
-let arr = [1,2,3,1,4,5,6];
+let arr = [
+  {id:1, key:1},
+  {id:2, key:2},
+  {id:3, key:1}
+];
 
 let va = arr.find(function(val){
-  return val === 1 ;
+  return val.key === 1;
 })
