@@ -1,11 +1,7 @@
-// find
+// some
 
-let arr = [
-  {id:1, key:1},
-  {id:2, key:2},
-  {id:3, key:1}
-];
+let arr = [10,30,32,90];
 
-let va = arr.find(function(val){
-  return val.key === 1;
+let any = arr.some(function(val){
+  return val>85 ;
 })
