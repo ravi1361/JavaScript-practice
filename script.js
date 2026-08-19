@@ -1,3 +1,7 @@
-// blank object
+// accessing the object
 
-let obj = {} ;
+let obj = {
+  name:"harsh",
+  age:26,
+  khaana:"daal chawal"
+};
