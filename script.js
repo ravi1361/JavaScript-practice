@@ -5,3 +5,6 @@ let obj = {
   age:26,
   khaana:"daal chawal"
 };
+
+let aa = "name" ;
+obj[aa]
