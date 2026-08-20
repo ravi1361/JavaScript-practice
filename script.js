@@ -11,6 +11,4 @@ const user = {
     },
   },
 }
-
-
-// user.address.location.lng gives 77.4
+let {lat,lng} = user.address.location;
