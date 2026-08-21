@@ -1,14 +1,12 @@
-// nesting and deep access
+// looping
 
-const user = {
-  name:"Harsh",
-  address:{
-    city:"bhopal",
-    pin:462001,
-    location:{
-      lat:23.2,
-      lng:77.4
-    },
-  },
+let obj = {
+  name:"harsh",
+  age:26,
+  email:"test@test.com"
 }
-let {lat,lng} = user.address.location;
+
+for(let key in obj){
+  console.log(key,obj[key]);
+  
+}
