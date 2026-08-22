@@ -6,4 +6,4 @@ let obj = {
   email:"test@test.com"
 }
 
-let obj2 = {...obj}
+let obj2 = Object.assign({},obj);
