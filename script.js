@@ -1,4 +1,4 @@
-// looping
+// copying objects
 
 let obj = {
   name:"harsh",
@@ -6,7 +6,4 @@ let obj = {
   email:"test@test.com"
 }
 
-for(let key in obj){
-  console.log(key,obj[key]);
-  
-}
+let obj2 = {...obj}
