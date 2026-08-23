@@ -1,9 +1,12 @@
-// copying objects
+// deep clone
 
 let obj = {
   name:"harsh",
   age:26,
-  email:"test@test.com"
+  address:{
+    city:"bhopal"
+  },
 }
 
-let obj2 = Object.assign({},obj);
+
+let onj2 = JSON.parse(JSON.stringify(obj));
