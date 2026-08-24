@@ -1,4 +1,4 @@
-// deep clone
+// optional chaining ?.
 
 let obj = {
   name:"harsh",
@@ -8,5 +8,6 @@ let obj = {
   },
 }
 
-
-let onj2 = JSON.parse(JSON.stringify(obj));
+// obj.address.city 
+// obj.address.city throws an error
+// obj.address?.city no throws error it tells undefined 
