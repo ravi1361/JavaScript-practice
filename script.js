@@ -1,8 +1,7 @@
-// computed properties 
+// dynamic key
 
-let role = "admin" ;
+let key = "age" ;
 
-let obj = {
-  name: "harsh",
-  [role]: "ravi"
+const user = {
+  age:26,
 }
