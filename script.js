@@ -1,13 +1,8 @@
-// optional chaining ?.
+// computed properties 
+
+let role = "admin" ;
 
 let obj = {
-  name:"harsh",
-  age:26,
-  address:{
-    city:"bhopal"
-  },
+  name: "harsh",
+  [role]: "ravi"
 }
-
-// obj.address.city 
-// obj.address.city throws an error
-// obj.address?.city no throws error it tells undefined 
