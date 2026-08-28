@@ -1,7 +1,7 @@
-// dynamic key
-
-let key = "age" ;
+// destructuring the key 
 
 const user = {
-  age:26,
+  "first-name": "Harsh",
 }
+
+let{"first-name":firstName} = user ;
