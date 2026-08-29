@@ -1,7 +1,12 @@
-// destructuring the key 
+// for-in to log all keys in this object
 
-const user = {
-  "first-name": "Harsh",
+const course = {
+  title: "Javascript",
+  duration:"4 weeks"
+} 
+
+
+for(let key in course){
+  console.log(key);
+  
 }
-
-let{"first-name":firstName} = user ;
