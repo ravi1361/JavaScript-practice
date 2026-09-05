@@ -1,12 +1,11 @@
-// for-in to log all keys in this object
+// object.entries
 
 const course = {
   title: "Javascript",
   duration:"4 weeks"
 } 
 
-
-for(let key in course){
-  console.log(key);
+Object.entries(course).forEach(function(val){
+  console.log(val[0] + ":" + val[1]);
   
-}
+})
