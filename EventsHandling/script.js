@@ -1,8 +1,6 @@
-let h1 = document.querySelector("h1");
+let input = document.querySelector("input");
 
-function dblClick(){
-  h1.style.color = "yellow";
-}
-
-h1.addEventListener("dblclick", dblClick);
-h1.removeEventListener("dblclick",dblClick);
+input.addEventListener("input",function(){
+  console.log("typed");
+  
+})
