@@ -1,6 +1,8 @@
 let input = document.querySelector("input");
 
 input.addEventListener("input",function(dets){
-  console.log(dets.data);
-  
+  if(dets.data !== null){
+    console.log(dets.data);
+    
+  }
 })
