@@ -1,8 +1,6 @@
-let input = document.querySelector("input");
+let sel = document.querySelector("select");
 
-input.addEventListener("input",function(dets){
-  if(dets.data !== null){
-    console.log(dets.data);
-    
-  }
+sel.addEventListener("change",function(dets){
+  console.log(dets.target.value);
+  
 })
