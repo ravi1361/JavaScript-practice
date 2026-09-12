@@ -1,6 +1,7 @@
 let sel = document.querySelector("select");
+let device = document.querySelector("#device");
 
 sel.addEventListener("change",function(dets){
-  console.log(dets.target.value);
+  device.textContent = `${dets.target.value} Device Selected`;
   
 })
