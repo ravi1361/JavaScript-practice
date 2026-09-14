@@ -4,20 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
+  <style>
+    * {
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    font-family: 'Gilroy';
+    }
+    
+    html, body {
+    height : 100%;
+    width: 100%;
+    }
+
+    #main{
+      width: 100%;
+      height: 100%;
+      background-color: #222;
+      display: flex;
+      align-items: center;
+      justify-self: center;
+    }
+
+    h1{
+      color: #555;
+      font-size: 10rem;
+      font-weight: 300;
+      user-select: none;
+      letter-spacing: -1rem;
+    }
+  </style>
 </head>
 <body>
-  
-  <h3 id="device">Select your device</h3>
 
-  <select>
-    <option selected disabled>Choose your device</option>
-    <option value="samsung">Samsung</option>
-    <option value="mi">Xiomi</option>
-    <option value="apple">Apple i phone</option>
-    <option value="oppo">Oppo</option>
-  </select>
-
+  <div id="main">
+    <h1>1</h1>
+  </div>
   
+
   <script src="script.js"></script>
 </body>
 </html>
