@@ -19,30 +19,38 @@
     }
 
     #main{
+      display: flex;
+      align-items: center;
+      justify-content: center;
       width: 100%;
       height: 100%;
       background-color: #222;
-      display: flex;
-      align-items: center;
-      justify-self: center;
     }
 
-    h1{
-      color: #555;
-      font-size: 10rem;
-      font-weight: 300;
-      user-select: none;
-      letter-spacing: -1rem;
+    input{
+      display: none;
     }
+
+    #btn{
+      padding: 12px 22px;
+      background-color: rgb(41,143,114);
+      color: white;
+      font-weight: 600;
+      border-radius: 5px;
+    }
+
+    #main #btn:hover{
+      background-color: rgb(24,82,66);
+    }
+
   </style>
+
 </head>
 <body>
-
   <div id="main">
-    <h1>1</h1>
+    <input id="fileinp" type="file">
+    <div id="btn">upload file</div>
   </div>
-  
-
   <script src="script.js"></script>
 </body>
 </html>
