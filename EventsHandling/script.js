@@ -15,13 +15,13 @@ let img = document.createElement("img");
 img.setAttribute("src",inputs[0].value);
 
 let h3 = document.createElement("h3");
-h3.textContent = inputs[1].value;
+h3.textContent = "Harsh";
 
 let h5 = document.createElement("h5");
-h5.textContent = inputs[2].value;
+h5.textContent = "coder";
 
 let p = document.createElement("p");
-p.textContent = inputs[3].value;
+p.textContent = "good guy";
 
 profile.appendChild(img);
 card.appendChild(profile);
