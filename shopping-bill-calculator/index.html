@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Bill Calculator</title>
+</head>
+<body>
+
+  <h1>Shopping Bill Calculator 🛒</h1>
+
+  <form id="billForm">
+    <input
+      type="text"
+      id="itemName"
+      placeholder="Item name"
+      required
+    >
+
+    <input
+      type="number"
+      id="price"
+      placeholder="Price per item"
+      min="0.01"
+      step="0.01"
+      required
+    >
+
+    <input
+      type="number"
+      id="quantity"
+      placeholder="Quantity"
+      min="1"
+      step="1"
+      required
+    >
+
+    <button type="submit">Add Item</button>
+  </form>
+
+  <h2>Shopping List</h2>
+  <ul id="itemList"></ul>
+
+  <h3>Total Bill: ₹<span id="total">0.00</span></h3>
+
+  <button id="clear">Clear Bill</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
