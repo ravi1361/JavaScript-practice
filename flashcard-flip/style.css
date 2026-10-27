@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f0ff;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+h1 {
+    color: #5b21b6;
+    margin-bottom: 12px;
+}
+
+.container > p {
+    color: #666;
+    margin-bottom: 25px;
+}
+
+.flashcard {
+    background: white;
+    min-height: 230px;
+    border-radius: 18px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 8px 25px #00000012;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.flashcard:hover {
+    transform: translateY(-4px);
+}
+
+.flashcard span {
+    color: #7c3aed;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.flashcard h2 {
+    color: #222;
+    font-size: 23px;
+    line-height: 1.5;
+}
+
+button {
+    margin-top: 22px;
+    background: #7c3aed;
+    color: white;
+    border: none;
+    padding: 13px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #5b21b6;
+}
+
+#progress {
+    margin-top: 18px;
+    color: #666;
+    font-size: 14px;
+}
