@@ -4,7 +4,7 @@ function checkDivisibility() {
     let result = document.getElementById("result");
 
     if (num1 === "" || num2 === "") {
-        result.textContent = "Please enter both numbers.";
+        result.textContent = "Please enter both numbers!!";
     } else if (Number(num2) === 0) {
         result.textContent = "Cannot divide by zero.";
     } else if (Number(num1) % Number(num2) === 0) {
