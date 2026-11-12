@@ -3,7 +3,7 @@ function calculateDays() {
     let result = document.getElementById("result");
 
     if (selectedDate === "") {
-        result.textContent = "Please select a date.";
+        result.textContent = "Please select a date!!";
         return;
     }
 
